@@ -20,3 +20,8 @@ git show-branch
 - si se desea ver más datos de las ramas se puede usar:
 
 git show-branch --all
+
+- Para visualizar que le ha pasado al proyecto por fuera
+de la consola utiliza:
+
+gitk
