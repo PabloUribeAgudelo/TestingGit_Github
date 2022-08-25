@@ -4,6 +4,10 @@ Comandos útiles para usar en la terminal:
 
 mkdir <Nombre_Del_Directorio>
 
+- Crear un directorio con espacios [NO ES RECOMENDADO]:
+
+mkdir '<Nombre Con Espacios>'
+
 - Para listar todos los archivos/directorios de una carpeta:
 
 ls 
