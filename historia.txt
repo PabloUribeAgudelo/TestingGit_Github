@@ -2,6 +2,6 @@ Esta es una prueba de las funcionalidades de Git.
 
 Soy Pablo Uribe y estoy realizando una práctica en análisis cuantitativo en Sura.
 
-Pablo tiene 22 años de edad, vive en Colombia y le gustan las hamburguesas.
+Pablo tiene 22 años de edad, vive en Colombia, le gustan las hamburguesas y salir de paseo.
 
 Pablo quiere terminar una escuela de Platzi.
