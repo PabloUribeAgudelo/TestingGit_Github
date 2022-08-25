@@ -1,0 +1,11 @@
+- Para buscar todos los archivos terminados en una misma extensión:
+
+ls *.<NombreDeLaExtension>
+ls *.txt 
+
+- Para buscar todos los archivos que empiecen igual se usa:
+
+ls <FormaEnQueIniciaElArchivo>*
+ls Datos*
+
+- 
