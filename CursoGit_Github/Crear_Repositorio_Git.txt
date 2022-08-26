@@ -20,7 +20,7 @@ git config --list
 - git conf --list: para ver la lista de configuraciones hechas
 - git conf --list --show-origin: para mostrar las configuraciones y sus rutas
 - git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
-- git rm nombre_del_archivo.txt: para eliminar del repositorio
+[PELIGRO] - git rm nombre_del_archivo.txt: para eliminar del repositorio
 
 - Para modificar el nombre de usuario usar:
 
