@@ -1,3 +1,7 @@
+- Para ver el contenido de un archivo en la terminal:
+
+cat <NombreDelArchivo>
+
 - Para ver las primeras 10 líneas de un archivo de texto:
 
 head <NombreDelArchivo>

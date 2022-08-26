@@ -25,3 +25,12 @@ info <Comando>
 - Para ver de forma corta que hace un comando:
 
 whatis <Comando>
+
+- Para ver la historia de todos los comandos usados hasta el momento:
+
+history
+
+- Para repetir un comando específico de la historia:
+
+!<NúmeroDelComando>
+!33
