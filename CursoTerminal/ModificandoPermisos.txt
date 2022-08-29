@@ -41,5 +41,3 @@ sudo -i
 - Para cambiar la contraseña del usuario:
 
 passwd
-
-
