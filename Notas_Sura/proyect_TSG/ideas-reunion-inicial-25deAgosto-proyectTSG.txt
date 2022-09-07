@@ -1,0 +1,53 @@
+* Los retornos tienen un alto nivel de correlación.
+
+* Próposito: Conectar los procesos de construcción de portafolios con simulaciones de datos 
+(que no solo dependan de lo que hacemos hoy - ajustar cierto tipo de distribución - supuestos muy fuertes) 
+con el objetivo de simular series realistas de activos financieros.
+
+* Que se hace actualmente en la construcción de portafolios:
+Modelos de optimización (Miopes - No tiene múltiples periodos) -> aceptadas por clientes.
+
+* Tienen un modelo que predice una variable categórica 
+(fase del cíclo ecónomico que se va a estar en los siguientes años/meses). 
+
+* Usando modelos de machine learning para predicción de retornos y clustering.
+
+* Pensamiento clásico: input-output.
+
+* Es muy díficil crear un modelo end to end. Hay pocos datos y mucha incertidumbre.
+
+* Cuando desean tomar una decisión financiera, 
+se desea que la decisión este altamente justificada (que tenga un alto grado de interpretación)
+
+* Que tal generar un sistema que sea capaz de reemplazar un portfolio manager (Un agente que tome decisiones por cuenta propia está en el campo de reinforcement learning) 
+
+* El agente toma un decisión (eso crea un payoff dependiendo del outcome), esto se utiliza para mejorar la política que tenga el agente.
+
+* De esta forma se puede definir un horizonte de decisiones. Para poder entrenar un modelo de RL se requiere demasiados datos. Lo cual no está del todo presente. 
+
+* Planteamiento del problema de RL: Yo soy un PM que voy a tomar una decisión hoy y tengo un horizonte de 3-5 años. Y por ejemplo se van a tomar decisiones de alocación cada 6 meses. 
+
+Por ende, se necesitan series de 5 años (miles o millones) de una historia de 20 años. 
+
+Si nosotros generamos un esquema que nos permita simular datos (en ciertos horizontes) 
+y generar cosas nuevas que no se han visto aún. 
+
+* 3 cosas que deben considerar las simulaciones:
+
+1ero: Horizonte de tiempo 2-3 años.
+2do: Granularidad (intervalos X - (Superiores a la información))
+3ero: Regimen - Explicación: En la historia de 20 años, si miramos periodos de 3 a 5 años, en muchos momentos la "distribución" 
+pudo cambiar: esto se le conoce como momentos económicos. 
+
+- (Importante) No sirve de nada simular una única variable, es necesario simular varias variables al tiempo. 
+
+- Gran problema: Hay miles de activos pero se reduce a solo unos cuantos factores. 
+
+- Duda de Daniel: Como se puede usar una GAN para una serie de tiempo, y como se verifica su veracidad. ¿Cómo se evalua si una muestra generada es buena o mala?
+
+- MCMC: Markov Chain Monte Carlo.
+
+(A los 50 minutos explica el código)
+
+- Con la librería Boto3 se conecta a AWS.
+- En asset_data está toda la información (como le dice Daniel - La tabla maestra de instrumentos) 
