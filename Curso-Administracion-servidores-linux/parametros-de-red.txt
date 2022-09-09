@@ -21,3 +21,8 @@ route -n
 
 nslookup <dominio> 
 nslookup google.com
+
+- Para descargar cosas de internet se puede usar:
+
+curl <dominio>
+wget <dominio>
