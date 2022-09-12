@@ -1,0 +1,11 @@
+Gans
+
+-> Un modelo que puede generar nuevas muestras.
+-> Le das una cantidad de muestras de una distribución específica.
+-> Genera muestras con esa distribución específica. 
+-> Si se tienen dos "agentes" independientes entre sí, estos
+pueden ser adversarios, i.e. tratar de superar a su openente
+todo el tiempo.
+-> El discriminador quiere una tasa de error (del discriminador)
+baja, mientras que el generador quiere una tasa de error alta. 
+-> Toma m muestras reales y m muestras falsas -> ¿Esto se debe cumplir siempre? ¿Pueden haber excepciones?
