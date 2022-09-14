@@ -1,0 +1,6 @@
+Para crear virtual envs:
+
+pip install virtualenv
+
+virtualenv -p /path/to/any/bin/python new_env 
+virtualenv -p /c/Users/'Pablo Uribe'/Documents/python37/python.exe env_python37
