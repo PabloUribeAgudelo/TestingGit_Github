@@ -1,0 +1,10 @@
+Para usar varias versiones de python (en Windows 10):
+
+Instalar la versión de python que se desea (Sin agregar a las variables de entorno)
+Instalar para todos los usuarios (como administrador)
+
+Poner en las variables de entorno de primera la versión de python que se desea utilizar. (Primero /scripts, luego python)
+
+Luego para crear el entorno virtual:
+
+python -m venv path/donde/se/quiere/guardar
