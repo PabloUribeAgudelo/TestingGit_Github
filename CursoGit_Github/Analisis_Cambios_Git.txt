@@ -31,3 +31,5 @@ Comandos para analizar cambios en GIT
 [PELIGRO] - git reset --hard <NombreCommit>: Regresa el apuntador a al commit antiguo y ELIMINA todos los cambios realizados en los futuros commits. 
 - git reset <IndicadorDelHead>: Este es el comando para sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos 
 cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+
+-Probando
